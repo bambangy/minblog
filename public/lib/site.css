@@ -1,0 +1,92 @@
+body {
+  background-color: #fefefe;
+  color: #2e3d49;
+}
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background-color: #8ab6d6;
+}
+
+.navbar .navbar-brand, .navbar .nav-link {
+  color: #fefefe !important;
+}
+
+.jumbotron {
+  background-color: #8ab6d6;
+  color: #f6d6ad;
+}
+
+.jumbotron .lead {
+  color: lighten(#f6d6ad, 20%);
+}
+
+footer {
+  background-color: #2e3d49;
+  color: #fefefe;
+}
+
+header {
+  background-color: #8ab6d6;
+  color: #f6d6ad;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.container {
+  margin-top: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #8ab6d6;
+}
+
+.btn-primary {
+  background-color: #8ab6d6;
+  border-color: #8ab6d6;
+}
+
+.btn-primary:hover {
+  background-color: darken(#8ab6d6, 10%);
+  border-color: darken(#8ab6d6, 10%);
+}
+
+/* Bootstrap custom variables */
+:root {
+  --primary: #8ab6d6;
+  --secondary: #f6d6ad;
+  --success: #a3d9a5;
+  --info: #9ecae1;
+  --warning: #f7d083;
+  --danger: #f19cbb;
+  --light: #fefefe;
+  --dark: #2e3d49;
+  --body-bg: #fefefe;
+  --text-color: #2e3d49;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--body-bg);
+}
+
+a {
+  color: var(--primary);
+}
+
+a:hover {
+  color: darken(var(--primary), 15%);
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btn-primary:hover {
+  background-color: darken(var(--primary), 10%);
+  border-color: darken(var(--primary), 10%);
+}
